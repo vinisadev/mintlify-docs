@@ -21,7 +21,16 @@
   "paths": {
     "/convert-dates": {
       "post": {
-        "description": "Submit a series of dates to convert them to a standard format"
+        "description": "Submit a series of dates to convert them to a standard format",
+        "parameters": [
+          {
+            "dates": [
+              "2025-04-01",
+              "2025-04-02",
+              "2025-04-03"
+            ]
+          }
+        ]
       }
     },
     "/plants": {
