@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Planning Poker",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -80,6 +80,11 @@
         {
           "anchor": "Blog",
           "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        },
+        {
+          "anchor": "Changelog",
+          "href": "",
           "icon": "newspaper"
         }
       ]
