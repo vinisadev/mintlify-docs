@@ -19,6 +19,26 @@
     }
   ],
   "paths": {
+    "/health": {
+      "get": {
+        "description": "Check the status of the API"
+      },
+      "responses": {
+        "200": {
+          "description": "Health Response",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/health"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/plants": {
       "get": {
         "description": "Returns all plants from the system that the user has access to",
